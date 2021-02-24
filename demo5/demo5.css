@@ -1,0 +1,44 @@
+body{
+    background-color: palevioletred; 
+}
+.a{
+    position: relative;
+    top: 200px;
+    font: bold 150px "";
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.b1{
+    letter-spacing: 50px;
+    transition:0.5s;
+}
+
+.b2{
+    letter-spacing: 50px;
+    transition: 0.5s;  
+}
+.b2:nth-child(1){
+    transition-delay:0.05s;
+}
+.b2:nth-child(2){
+    transition-delay:0.15s;
+}
+.b2:nth-child(3){
+    transition-delay:0.25s;
+}
+.b2:nth-child(4){
+    transition-delay:0.35s;
+}
+.b2:nth-child(5){
+    transition-delay:0.45s;
+}
+
+.a:hover .b1 ,.a:hover .b2 {
+    color: #fff;
+    text-shadow: 
+    0 0 30px #fff,
+    0 0 50px #fff,
+    0 0 80px #fff;
+}
