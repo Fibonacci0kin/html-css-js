@@ -1,0 +1,10 @@
+body{
+    background-color: palevioletred;
+}
+span{
+    user-select: none;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    transition: 1.5s;
+}
