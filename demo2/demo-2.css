@@ -1,0 +1,28 @@
+body{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center
+}
+.a{
+    width: 800px;
+    height: 300px;
+    position: relative;
+    top: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.b{
+    border: 2px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    transition: 0.25s;
+    overflow: hidden;
+}
+.b:hover{
+    flex-shrink:0;
+    flex-grow:1;
+}
+img{
+    width: 500px;
+}
