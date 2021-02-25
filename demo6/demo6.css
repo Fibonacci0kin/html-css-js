@@ -1,0 +1,44 @@
+body{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+}
+.a{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 200px;
+}
+
+.b{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #000;
+    background-image: url("1.gif");
+    transition: 1s;
+
+    transform-style: preserve-3d;
+    
+}   
+
+.a:hover .b{
+    transform: rotateY(180deg);
+}
+
+.c,.d{
+    position: absolute;
+    color: whitesmoke;
+    font:bold 60px '';
+    letter-spacing: 5px;
+    line-height: 200px;
+}
+.c{ 
+    transform:translateZ(70px);
+}
+.d{
+    transform:translateZ(-70px) rotateY(180deg);
+}
+
